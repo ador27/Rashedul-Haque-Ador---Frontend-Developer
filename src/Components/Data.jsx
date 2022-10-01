@@ -9,7 +9,7 @@ const Data = () => {
     }, [])
     return (
         <div>
-            <h1 className='text-3xl text-center font-bold text-orange-400 m-4'>Capsules</h1>
+            <h1 className='text-3xl text-center font-bold text-green-400 m-4'>Capsules</h1>
             <div className='grid lg:grid-cols-3 sm:grid-cols-1'>
                 {
                     capsules.map((capsule, status, capsule_id, missions) =>
